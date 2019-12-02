@@ -1,0 +1,1 @@
+# buch_nitya_infographic
