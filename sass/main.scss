@@ -17,10 +17,12 @@ main {
 
 .blue-back {
   background-color: #0052A0;
+  padding: 3px;
 }
 
 .red-back {
   background-color: #A2204A;
+  padding: 3px;
 }
 
 .category {
@@ -33,7 +35,8 @@ main {
 p { font-family: acumin-pro-extra-condensed, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 20px;
+  font-size: 15px;
+  text-align: justify;
 }
 
 section {
@@ -55,8 +58,13 @@ section {
 }
 
 .graph { 
-  padding: 5px 10px 10px 10px; 
+  padding: 5px; 
   cursor: pointer;
+  margin-right: 5vw;
+}
+
+.graph img {
+  margin-right: 0;
 }
 
 .popover { 
@@ -67,7 +75,7 @@ section {
   font-family: acumin-pro-extra-condensed, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 span {
@@ -82,18 +90,36 @@ span {
   flex-direction: column;
 }
 
+.show-popover img {
+
+}
+
 /* -------------------------------- tablet --------------------------------- */
 
-@media screen and (min-width: 768px) {
-
+@media screen and (min-width: 680px) {
+  .graph {
+    margin-right: 2vw;
+  }
 }
 
 /* -------------------------------- pc --------------------------------- */
 
-@media screen and (min-width: 1024px) 
-{
-    * {
-        font-size: 30px;
+@media screen and (min-width: 1024px) {
+  p, .popover ,span {
+    font-size: 28px;
     }
 
+  .show-popover {
+    display: flex;
+    flex-direction: row;
+    }
+
+  .show-popover div {
+    width: 33vw;
+    margin-right: 2vw;
+    }
+
+  .show-popover img {
+    width: 60vw;
+    }
 }
