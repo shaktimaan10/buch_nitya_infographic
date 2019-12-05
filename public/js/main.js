@@ -1,6 +1,6 @@
 (()=> {
     
-    const seeMoreButtons = document.querySelectorAll(".graph"),
+    const graphButton = document.querySelectorAll(".graph"),
         popOver = document.querySelector(".popover");
       
     function buildPopover(information, el) {
@@ -35,5 +35,5 @@
             .catch((err) => console.log(err));
       }
 
-    seeMoreButtons.forEach(button => button.addEventListener("click", fetchData));
+    graphButton.forEach(button => button.addEventListener("click", fetchData));
 })();
