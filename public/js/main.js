@@ -3,11 +3,11 @@
     const seeMoreButtons = document.querySelectorAll(".graph"),
         popOver = document.querySelector(".popover");
       
-    function buildPopover(herofile, el) {
-        popOver.querySelector(".topic").textContent = `${herofile.topic}`;
-        popOver.querySelector(".odds").textContent = `ODDS: ${herofile.odds}`;
-        popOver.querySelector(".description").textContent = `${herofile.description}`;
-        popOver.querySelector(".graph").src = `images/${herofile.graph}`;
+    function buildPopover(information, el) {
+        popOver.querySelector(".topic").textContent = `${information.topic}`;
+        popOver.querySelector(".odds").textContent = `ODDS: ${information.odds}`;
+        popOver.querySelector(".description").textContent = `${information.description}`;
+        popOver.querySelector(".graph").src = `images/${information.graph}`;
 
         //Image.src = 'images/cap-info.svg';
 
