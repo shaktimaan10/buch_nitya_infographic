@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+
+    <title>Nitya Buch</title>
+</head>
+<body>
+    <main>
+        <div class="header row">
+            <p>logo</p>
+            <div class="header-link row">
+              <h1 class="hidden">about, projects and contact links</h1>
+              <a href="/about">about</a>
+              <a href="/projects">projects</a>
+              <a href="/contact" target="_blank">contact</a>
+            </div>
+        </div>
+
+        <div class="tv-row">
+          <form id="contact-form" method="POST" action="/throw"> <!-- change from here -->
+
+            <p>How Can I Help you?</p><br><br>
+
+            <div id="name" class="form-field column">
+              <label>Name</label><br>
+              <input name="name">
+            </div>
+            <div id="mail" class="form-field column">
+              <label>Email</label><br>
+              <input name="email" type="email">
+            </div>
+            <div id="phone" class="form-field column">
+                <label>Phone</label><br>
+                <input name="phone" type="tel">
+            </div>
+            <div id="message" class="form-field column">
+                <label>Message</label><br>
+                <textarea name="message"></textarea>
+            </div>
+            <button class="column" id="submit" type="submit" name="submit" >Send</button>
+          </form>
+          <div id="contact-info">
+            <h2>Contact Info</h2><br class="tv-show"><br class="tv-show">
+            <p><a href="mailto:nityabuch04@gmail.com">nityabuch04@gmail.com</a></p>
+            <p>5193194507</p>
+            <p>London, ON</p>
+            <div class="row" style="width: 30vw;">
+              <a href="https://www.behance.net/nityabuch1"><img src="images/behance.png" style="width: 35px; height: 35px; filter: grayscale(1);" alt="behance"></a>
+              <a href="https://www.linkedin.com/in/nitya-buch-018436130/">
+                <img src="images/linkedin.png" style="width: 35px; height: 35px; filter: grayscale(1);" alt="linkedin">
+              </a>
+            </div>
+          </div>
+        </div>
+  
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
