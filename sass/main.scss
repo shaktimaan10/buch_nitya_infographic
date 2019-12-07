@@ -266,6 +266,15 @@ button {
 {
    display: flex;
 }
+
+.popover {
+  display: none;
+}
+
+.show-popover {
+  display: flex;
+}
+
 /* ------------------- ipad ------------------- */
 
 @media screen and (min-width: 768px) {
