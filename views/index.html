@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ivp8erc.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+
+    <title>Barca BetGuide</title>
+</head>
+<body>
+      <!-- <p style="color: black;">THE ULTIMATE FCB FANTASY LEAGUE PREDICTOR</p> -->
+      <div id="header"></div><img src="images/header.svg" alt="header"></div>
+        <!-- <img src="images/barca_logo.png" width="200" height="200" alt="logo"> -->
+      <!-- <h1 class="main-header">A BARCA BETGUIDE</h1> -->
+      <!-- <p class="blue-back">STATISTICAL ANALYSIS OF THE PAST LEAGUE RESULTS  
+        & SEASON PERFORMANCES BY THE SPANISH GIANTS.</p><p class="red-back"> GUIDE TO PLAYING BARCELONA IN THE FANTASY LEAGUE AND STATISTICS FOR ONLINE BETTING</p> -->
+    <main>
+        <div id="categories">
+        <section id="info1" class="blue-back">
+          <div class="category">
+            <h3 class="hidden">LEAGUE STANDINGS</h3>
+            <img src="images/position.svg" alt="pos" class="svg">
+            <span class="graph red-back" data-target="1">graph</span>
+          </div>
+        </section>
+
+        <section id="info2" class="red-back">
+          <div class="category">
+            <h3 class="hidden">POINTS/SEASON</h3>
+            <img src="images/points.svg" alt="pos" class="svg">
+            <span class="graph blue-back" data-target="2">graph</span>
+          </div>
+        </section>
+
+        <section id="info3" class="blue-back">
+          <div class="category">
+            <h3 class="hidden">GOALS/SEASON</h3>
+            <img src="images/goals.svg" alt="pos" class="svg">
+            <span class="graph red-back" data-target="3">graph</span>
+        </section>
+      
+        <section id="info4" class="red-back">
+          <div class="category">
+            <h3 class="hidden">GOALS CONCEDED</h3>
+            <img src="images/conceded.svg" alt="pos" class="svg">
+            <span class="graph blue-back" data-target="4">graph</span>
+          </div>
+        </section>
+
+        <section id="info5" class="blue-back">
+          <div class="category">
+            <h3 class="hidden">DEPRESSION STATE</h3>
+            <img src="images/depression.svg" alt="pos" class="svg">
+            <span class="graph red-back" data-target="5">graph</span>
+          </div>
+        </section>
+
+        <section id="info6" class="red-back">
+            <div class="category">
+              <h3 class="hidden">fav stadium</h3>
+              <img src="images/stadium1.svg" alt="pos" class="svg">
+              <span class="graph blue-back" data-target="6">graph</span>
+            </div>
+          </section>
+
+          <section id="info6" class="red-back">
+              <div class="category">
+                <h3 class="hidden">feared stadium</h3>
+                <img src="images/stadium2.svg" alt="pos" class="svg">
+                <span class="graph blue-back" data-target="7">graph</span>
+              </div>
+            </section>
+      </div>
+
+      <section class="popover tv-row">
+        <div style="display: flex; flex-direction: column;">
+        <p class="topic" style="margin: 0;"></p><br>
+        <p class="odds" style="margin: 0;"></p>
+        <p class="description" ></p></div>
+        <!-- <p class="stats"></p> -->
+        <img class="graph">
+      </section>
+      <!-- </div> -->
+
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
